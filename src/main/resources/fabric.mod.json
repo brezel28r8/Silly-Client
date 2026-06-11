@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "sillyclient",
+  "name": "Silly Client",
+  "version": "${version}",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.sillyclient.Client"
+    ]
+  },
+  "mixins": [
+    "sillyclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": "~1.20.4",
+    "java": ">=17"
+  }
+}
