@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.sillyclient.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinInGameHud",
+    "MixinMinecraftClient"
+  ],
+  "client": [
+    "IMinecraftClientAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
